@@ -54,7 +54,7 @@ def write_to_excel(catorogy_link):
         col_name=tr.find('td')
         if col_name=='Businss Type:':
             business_type=tr.find('td')
-        elif col_name=='Address:'
+        elif col_name=='Address:':
             address==tr.find('td')
     catorogy_link=final_catogary_link
     company_link=company_link
